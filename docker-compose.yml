@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   traefik:
-    imae: "traefik:v2.4.8"
+    image: "traefik:v2.4.8"
     container_name: "traefik"
     restart: always
     command: 
